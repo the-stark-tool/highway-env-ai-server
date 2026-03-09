@@ -1,0 +1,11 @@
+gymnasium==0.28.1
+highway_env==1.8.2
+numpy==2.2.0
+stable-baselines3==2.0.0
+flask==3.1.0
+opencv-python
+pygame
+tensorboard>=2.9.1
+psutil
+tqdm
+rich
