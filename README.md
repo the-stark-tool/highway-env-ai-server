@@ -80,7 +80,8 @@ python server.py <model_id>
 ---
 ### API Endpoints
 
-The following are technical details, not necessary to run the experiments.
+> [!NOTE]
+> The following are technical details, not necessary to run the experiments.
 
 STARK communicates with the AI environment through an HTTP API. This The server runs on **`http://127.0.0.1:6000`**.
 
