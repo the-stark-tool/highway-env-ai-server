@@ -21,7 +21,7 @@ ENV_CONFIG = {
         # Defaults highway_env/envs/common/observation.py:191
         # overriden with new range for x that allows values over 200
         "features_range" : { 
-            "x": [0, 1000],
+            "x": [-1000, 1000],
             "y": [-AbstractLane.DEFAULT_WIDTH * LANES, AbstractLane.DEFAULT_WIDTH * LANES], 
             "vx": [-2*Vehicle.MAX_SPEED, 2*Vehicle.MAX_SPEED],
             "vy": [-2*Vehicle.MAX_SPEED, 2*Vehicle.MAX_SPEED]
